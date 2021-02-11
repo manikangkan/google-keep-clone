@@ -1,38 +1,225 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Montserrat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #fafafa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-moz-selection {
+  background-color: #005a80;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::selection {
+  background-color: #005a80;
+  color: #fff;
+}
+
+.header {
+  background-color: #005a80;
+}
+
+.header__inner {
+  height: 5rem;
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 2.5rem;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
 }
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+  color: #575757;
+}
+
+:-ms-input-placeholder {
+  color: #575757;
+}
+
+::-ms-input-placeholder {
+  color: #575757;
+}
+
+::placeholder {
+  color: #575757;
+}
+
+.createnote {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-top: 2rem;
+}
+
+.createnote .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.createnote button {
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.8rem 1.4rem;
+  background-color: #fff;
+  color: #005a80;
+  -webkit-box-shadow: 0px 16px 40px #d8d8d8;
+          box-shadow: 0px 16px 40px #d8d8d8;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translate(15rem, -2.5rem);
+          transform: translate(15rem, -2.5rem);
+}
+
+.createnote button:hover {
+  background-color: #005a80;
+  color: #fff;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 10px 10px 0 rgba(0, 90, 128, 0.125);
+          box-shadow: 10px 10px 0 rgba(0, 90, 128, 0.125);
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  width: 30rem;
+}
+
+input {
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-weight: 600;
+  border-bottom: 1px dotted #005a80;
+}
+
+textarea {
+  border-radius: 0 0 0.5rem 0.5rem;
+  resize: none;
+  height: 10rem;
+}
+
+.outputnote {
+  margin: 2rem;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.outputnote__inner {
+  background-color: #fff;
+  -webkit-box-shadow: 10px 10px 0 rgba(0, 90, 128, 0.125);
+          box-shadow: 10px 10px 0 rgba(0, 90, 128, 0.125);
+  border-radius: 0.5rem;
+  padding: 1.5rem 1rem;
+  line-height: 1.5;
+  width: 15rem;
+  font-size: 0.8rem;
+  color: #575757;
+}
+
+.outputnote__inner button {
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.8rem 1.4rem;
+  background-color: #fff;
+  color: #005a80;
+  -webkit-box-shadow: 0px 16px 40px #d8d8d8;
+          box-shadow: 0px 16px 40px #d8d8d8;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  -webkit-transform: translate(12rem, -0.6rem);
+          transform: translate(12rem, -0.6rem);
+}
+
+.outputnote__inner button:hover {
+  background-color: #005a80;
+  color: #fff;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4rem auto 1rem;
+}
+/*# sourceMappingURL=App.css.map */
