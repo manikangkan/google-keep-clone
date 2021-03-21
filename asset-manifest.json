@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mdkeep.github.io/react-deploy/static/css/main.4c004621.chunk.css",
+    "main.js": "/mdkeep.github.io/react-deploy/static/js/main.917877d3.chunk.js",
+    "main.js.map": "/mdkeep.github.io/react-deploy/static/js/main.917877d3.chunk.js.map",
+    "runtime-main.js": "/mdkeep.github.io/react-deploy/static/js/runtime-main.1632708a.js",
+    "runtime-main.js.map": "/mdkeep.github.io/react-deploy/static/js/runtime-main.1632708a.js.map",
+    "static/js/2.23a5987f.chunk.js": "/mdkeep.github.io/react-deploy/static/js/2.23a5987f.chunk.js",
+    "static/js/2.23a5987f.chunk.js.map": "/mdkeep.github.io/react-deploy/static/js/2.23a5987f.chunk.js.map",
+    "index.html": "/mdkeep.github.io/react-deploy/index.html",
+    "static/css/main.4c004621.chunk.css.map": "/mdkeep.github.io/react-deploy/static/css/main.4c004621.chunk.css.map",
+    "static/js/2.23a5987f.chunk.js.LICENSE.txt": "/mdkeep.github.io/react-deploy/static/js/2.23a5987f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1632708a.js",
+    "static/js/2.23a5987f.chunk.js",
+    "static/css/main.4c004621.chunk.css",
+    "static/js/main.917877d3.chunk.js"
+  ]
+}
