@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/manikangkanKeep.github.io/react-deploy/static/css/main.4c004621.chunk.css",
-    "main.js": "/manikangkanKeep.github.io/react-deploy/static/js/main.c620772b.chunk.js",
-    "main.js.map": "/manikangkanKeep.github.io/react-deploy/static/js/main.c620772b.chunk.js.map",
-    "runtime-main.js": "/manikangkanKeep.github.io/react-deploy/static/js/runtime-main.d2e60f18.js",
-    "runtime-main.js.map": "/manikangkanKeep.github.io/react-deploy/static/js/runtime-main.d2e60f18.js.map",
-    "static/js/2.23a5987f.chunk.js": "/manikangkanKeep.github.io/react-deploy/static/js/2.23a5987f.chunk.js",
-    "static/js/2.23a5987f.chunk.js.map": "/manikangkanKeep.github.io/react-deploy/static/js/2.23a5987f.chunk.js.map",
-    "index.html": "/manikangkanKeep.github.io/react-deploy/index.html",
-    "static/css/main.4c004621.chunk.css.map": "/manikangkanKeep.github.io/react-deploy/static/css/main.4c004621.chunk.css.map",
-    "static/js/2.23a5987f.chunk.js.LICENSE.txt": "/manikangkanKeep.github.io/react-deploy/static/js/2.23a5987f.chunk.js.LICENSE.txt"
+    "main.css": "/GoogleKeepClone.github.io/static/css/main.4c004621.chunk.css",
+    "main.js": "/GoogleKeepClone.github.io/static/js/main.ec06f035.chunk.js",
+    "main.js.map": "/GoogleKeepClone.github.io/static/js/main.ec06f035.chunk.js.map",
+    "runtime-main.js": "/GoogleKeepClone.github.io/static/js/runtime-main.f6e58c82.js",
+    "runtime-main.js.map": "/GoogleKeepClone.github.io/static/js/runtime-main.f6e58c82.js.map",
+    "static/js/2.23a5987f.chunk.js": "/GoogleKeepClone.github.io/static/js/2.23a5987f.chunk.js",
+    "static/js/2.23a5987f.chunk.js.map": "/GoogleKeepClone.github.io/static/js/2.23a5987f.chunk.js.map",
+    "index.html": "/GoogleKeepClone.github.io/index.html",
+    "static/css/main.4c004621.chunk.css.map": "/GoogleKeepClone.github.io/static/css/main.4c004621.chunk.css.map",
+    "static/js/2.23a5987f.chunk.js.LICENSE.txt": "/GoogleKeepClone.github.io/static/js/2.23a5987f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2e60f18.js",
+    "static/js/runtime-main.f6e58c82.js",
     "static/js/2.23a5987f.chunk.js",
     "static/css/main.4c004621.chunk.css",
-    "static/js/main.c620772b.chunk.js"
+    "static/js/main.ec06f035.chunk.js"
   ]
 }
