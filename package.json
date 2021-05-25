@@ -1,5 +1,5 @@
 {
-  "homepage": "http://manikangkandas/manikangkanKeep.github.io/react-deploy",
+  "homepage": "http://manikangkandas.github.io/GoogleKeepClone.github.io",
   "name": "manikangkan-keep",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.0"
   }
 }
